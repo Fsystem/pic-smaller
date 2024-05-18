@@ -22,7 +22,7 @@ import {
   DeleteOutlined,
   DownloadOutlined,
   FolderAddOutlined,
-  GithubOutlined,
+  // GithubOutlined,
   PlusOutlined,
   ReloadOutlined,
 } from "@ant-design/icons";
@@ -465,14 +465,14 @@ export default observer(() => {
               <Typography.Text>{getLangStr()}</Typography.Text>
             </Flex>
           </Dropdown>
-          <Divider type="vertical" />
+          {/* <Divider type="vertical" />
           <Typography.Link
             className={style.github}
             target="_blank"
             href="https://github.com/joye61/pic-smaller"
           >
             <GithubOutlined />
-          </Typography.Link>
+          </Typography.Link> */}
         </Space>
       </Flex>
 
