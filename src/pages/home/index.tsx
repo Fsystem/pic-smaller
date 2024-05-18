@@ -1,6 +1,6 @@
 import {
   Button,
-  Divider,
+  // Divider,
   Dropdown,
   Flex,
   GlobalToken,
